@@ -7,3 +7,5 @@ Introducción a la ciberseguridad donde se explican los objetivos del curso y la
 Uso de claves, pública y privada y certificados y autoridades de autenticación y una explicación del funcionamiento de las mismas.
 
 Instalación de Kali Linux para la parte divertida de la carrera.
+
+Enrutamientos a través de iptables y configuración de un firewall.
