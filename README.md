@@ -14,3 +14,4 @@ Fuerza bruta y diccionarios con el uso de NMap. /Pendiente adjuntar, quiero hace
 
 Inyecciones SQL y SQLMap
 
+Inyecciones con XSS sobre html
