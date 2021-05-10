@@ -9,3 +9,8 @@ Uso de claves, pública y privada y certificados y autoridades de autenticación
 Instalación de Kali Linux para la parte divertida de la carrera.
 
 Enrutamientos a través de iptables y configuración de un firewall.
+
+Fuerza bruta y diccionarios con el uso de NMap. /Pendiente adjuntar, quiero hacer script real
+
+Inyecciones SQL y SQLMap
+
