@@ -1,0 +1,6 @@
+Es la suplantacion de la mac de un dispositivo
+El primer paso es realizar el macflooding a otro equipo y lanzar el macchanger
+'macchanger -m 00:22:2D:..:..:.. <- (mac del servidor)'
+Tambien es una práctica teórica por no contar con los recursos apropiados.
+
+Para evitar este ataque se puede fijar la mac al puerto mediante port-security.
