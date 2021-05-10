@@ -1,0 +1,19 @@
+A man in the middle of my IP
+
+Funciona con el atacante situandose en medio de una petición cliente-servidor. Se realiza mediante envenenamiento ARP tanto del cliente como del servidor.
+
+Lo primero es tener funcionando el wireshark para capturar el trafico de paquetes 
+
+Después utilizar arpspoof:
+
+arpspoof -i eth0 -t 192.168.1.15 192.168.1.12
+
+Asi la maquina 15 reconocera a nuestro equipo como la ip 12
+
+arpspoof -i eth0 -t 192.168.1.12 192.168.1.15
+
+Y asi el servidor nos reconocera como el cliente
+
+Cabe destacar que hay que activar el ipforward para que el equipo permita la redireccion de paquetes
+
+PAra evitar un man in the middle habria que usar un servicio DHCP-snooping que asocie las MAC a su correspondiente IP
