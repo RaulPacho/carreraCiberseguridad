@@ -23,3 +23,43 @@ Mac Flooding
 Mac Spoofing
 
 Man in the Middle
+
+*Curso de Triage*
+
+Metadatos, firma y descripción del software
+
+Análisis heurístico yu sus herramientas
+
+Análisis de paquetes mediante ruta de instalación y de ejecución
+
+Uso de recursos del equipo.
+
+Establecimiento de conexiones y detección de las fraudulentas.ç
+
+Fishing mediante Email y como detectarlos.
+
+*Analisis de malware*
+
+Software de virtualización y máquinas virtuales.
+
+Herramientas de análisis (en web y en local).
+
+Como se obtiene el malware.
+
+Análisis dinámico en sandbox (máquiona virtual).
+
+Interpretaciones posteriores de informes.
+
+Herramientas para la creación de malware.(Uso de njRAT)
+
+*Curso de hacking web* 
+
+(La práctica de este módulo ya se realizó en la introducción, el primer profesor le piso un poco lo fregado al resto)
+
+SQL Injection, Login y obtención de datos.
+
+Inyección XSS, Tipos y ataques.
+
+Ficheros: Ataque Unrestyricted File Upload y Local File Inclusion
+
+Robo de sesiones: Session Prediction y Fuerza Bruta.
