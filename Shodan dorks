@@ -1,0 +1,7 @@
+Shodan:
+
+city:new York -> buscar por ciudad
+contry:us -> buscar por pais
+port:443 -> buscar por puerto
+os:"windows 2003" -> buscar por sistema operativo
+Android Webcam Server -Authenticate -> buscaria servicios de camara de android activos

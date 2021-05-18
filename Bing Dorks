@@ -1,0 +1,13 @@
+Bing:
+
+feed: kevin mitnick -> buscaría los canales rss con la busqueda
+ip: 8.8.8.8 -> busca la ip
+filetype:pdf google hacking -> archivos con extension pdf sobre google hacking
+filetype:xls nominas -> buscar los excel con las nóminas.
+contains:pdf -> busca url con pdf dentro
+intitle:index -> todas las url que contengan url
+domain: elephant -> todo el contenido bajoese dominio
+
+contains:rdp intitle:"index.of" -> buscar configuraciones de escritorios remotos
+loc:es feed:hacking -> canales españoles con rss que hablen de hacking
+intitle:index.of.* loc:es -> canales indexados localizados en españa

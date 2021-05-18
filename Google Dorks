@@ -1,0 +1,13 @@
+inurl:hacking -> buscaria hacking en la url
+insite:hacking -> buscaria hacking el contenido
+intext
+site:es and site:ru-> busca paginas solo de España y de España
+filetype:txt
+"" -> buscar dentro del archivo
+-site:github.com (Eliminaria github de la busqueda)
+
+--Google Dorks
+index.of.dcim -> ver galerias
+index.of.dcim secret
+intext:"index of/"+password.txt"
+"you have an error in your sql syntax" inurl:/events.php?id= -> para buscar uvlnerabilidades php
