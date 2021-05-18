@@ -72,3 +72,5 @@ Google Robots
 
 Obtención de información con Google: inurl:robots.txt intext:"disallow: / wp-admin" site:edu (mostraría toda la información oculta con la palabra clave wordpress admin y que fueran sitios educativos).
     -inurl:robots.txt intext:"disallow: / phpmyadmin"
+    
+Operadores logicos de Google
