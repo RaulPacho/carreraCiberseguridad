@@ -76,3 +76,5 @@ Obtención de información con Google: inurl:robots.txt intext:"disallow: / wp-a
 Operadores logicos de Google
 
 Operadores lógicos en Bing
+
+Operadores lógicos en Shodan
