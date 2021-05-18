@@ -63,3 +63,11 @@ Inyección XSS, Tipos y ataques.
 Ficheros: Ataque Unrestyricted File Upload y Local File Inclusion
 
 Robo de sesiones: Session Prediction y Fuerza Bruta.
+
+*Hacking con motor de búsqueda*
+
+Conceptos sobre motores de búsqueda
+
+Google Robots
+
+Obtención de información con Google: inurl:robots.txt intexxt:"disallow: / wp-admin" site:edu (mostraría toda la información oculta con la palabra clave wordpress admin y que fueran sitios educativos).
