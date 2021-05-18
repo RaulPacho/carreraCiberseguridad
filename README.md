@@ -78,3 +78,5 @@ Operadores logicos de Google
 Operadores lógicos en Bing
 
 Operadores lógicos en Shodan
+
+Uso de Foca
