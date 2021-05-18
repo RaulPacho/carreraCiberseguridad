@@ -86,3 +86,5 @@ Introducción a la ciberseguridad donde se explican los objetivos del curso y la
     Uso de SqliHunter
     
     Uso de Bingoo
+    
+    Herramienta ExifTool (Metadatos)
