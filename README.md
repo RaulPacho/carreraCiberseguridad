@@ -82,3 +82,5 @@ Introducción a la ciberseguridad donde se explican los objetivos del curso y la
     Uso de Foca
     
     Uso de Snitch
+    
+    Uso de SqliHunter
