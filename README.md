@@ -80,3 +80,5 @@ Introducción a la ciberseguridad donde se explican los objetivos del curso y la
     Operadores lógicos en Shodan
 
     Uso de Foca
+    
+    Uso de Snitch
