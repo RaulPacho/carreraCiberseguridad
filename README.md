@@ -87,4 +87,4 @@ Introducción a la ciberseguridad donde se explican los objetivos del curso y la
     
     Uso de Bingoo
     
-    Herramienta ExifTool (Metadatos)
+    Herramienta ExifTool y de PyExiftToolGui (Metadatos)
