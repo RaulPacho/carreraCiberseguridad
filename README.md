@@ -74,3 +74,5 @@ Obtención de información con Google: inurl:robots.txt intext:"disallow: / wp-a
     -inurl:robots.txt intext:"disallow: / phpmyadmin"
     
 Operadores logicos de Google
+
+Operadores lógicos en Bing
