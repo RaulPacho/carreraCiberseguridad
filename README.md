@@ -88,3 +88,20 @@ Introducción a la ciberseguridad donde se explican los objetivos del curso y la
     Uso de Bingoo
     
     Herramienta ExifTool y de PyExiftToolGui (Metadatos)
+    
+*Curso de desarrollo seguro*
+
+    Ciclo de desarrollo del software.
+    
+    Validación de entradas: todo usuario es susceptible a ocasionar errores.
+    
+    Por si no había quedado ya claro lo que era una inyección SQL o XSS tienen por bien repetirlo.
+
+    Validación de netradas y de saleidas, criptografía y Buffer Overflow
+    
+    Manejo de conrttraseñas, sesiones errores y logs.
+    
+    Control de acceso, protección de datos, seguridad de comunicaciones, configuración del sistema.
+    
+    Seguridad en bases de datos, manejo de ficheros y manejo de memoria.
+    
