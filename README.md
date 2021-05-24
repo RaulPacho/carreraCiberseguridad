@@ -129,4 +129,48 @@ Introducción a la ciberseguridad donde se explican los objetivos del curso y la
         PortScan
     
     
+*MetasPloit Framework*
+
+    Instalación
     
+    Servicios, comandos msfconsole, exploits y tipos de Payloads, feneración de Payloads, BBDD, Shell Meterpreter.
+    
+    Búsqueda:
+    
+        Escaneo de puertos, búsqueda de vulnerabilidades.
+
+        Identificación de servicios.
+
+        Script de Nmap
+
+        Nessus, escáner para vulnerabilidades.
+        
+    Ataque:
+    
+        Troyanos para Linux
+        
+        Phising
+        
+        PDF malicioso
+        
+     Post explotación:
+     
+        Escalada de privilegios
+        
+        Persistencia
+        
+        Captura de tráfico
+        
+        Capturas de pantalla y cámara
+        
+        Búsqueda de contenido y fuerza bruta contra el mismo
+    
+        Personalización de Payload de Meterpreter
+        
+        KeyLogging
+        
+    Backdoorización de archivos .EXE 
+    
+    Armitage
+    
+
