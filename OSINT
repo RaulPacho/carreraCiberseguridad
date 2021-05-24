@@ -1,0 +1,106 @@
+Inteligencia:
+
+	Disciplinas: 
+		Open Source INTelligence
+		HUman INTelligence
+		SOCial Media Intelligence
+		CYBer INTelligence
+
+Ciclo de Inteligencia INCIBE: Requisitos, Fuente de información, Adquisición, Procesamiento, Análisis, Inteligencia.
+
+Credibilidad vs fiabilidad:
+
+	Fidelidad: A-F 
+	Credibilidad: 1-6
+	*A-1 seria lo más alto
+
+Factor Humano:
+
+	El hunmano es el que hace que la información sea lo más verídica posible.
+
+Búsqueda reversa de imágenes:
+
+	Google, Yándex y TinEye
+
+Buscadores de darkweb:
+
+	Ahmia.fi
+	Torch
+
+Reto: La noticia parece correcta.
+
+Metadatos: datos que describen otros datos.
+
+ExifTool
+
+FOCA
+
+**(No es la primera vez que digo que se pisan lo fregao)**
+
+Reto del documento: Como era de esperar el político miente ya que cuadraba lunes el día de creación del documento y no viernes.
+
+OSRFramework:
+
+	usufy.py -p all -n DetCalGaming (Toma spam en to' el trabajo)
+
+	alias_generator.py
+	Insert a name: DetCal
+	Insert the first surname: Gaming
+	Insert the second surname: 
+	Insert a Year:
+	Insert a city:
+	Insert a country: Spain
+	*creará un archivo txt con cada username
+
+	mailfy.py -n detcalgaming
+	*Además de encontrar mails nos dirá si hay alguno vulnerable
+
+
+	searchfy.py - p all -q "DetCal  Gaming"
+	*Buscará en diferentes redes sociales por nombre y apellido.
+
+	phonefy.py -n 666777888
+	*Busca si el telefono está vinculado a spam
+
+	entify.py -r all -w https://twitch.tv/detcalgaming
+	*Busca expresiones regulares de una página
+
+	domainfy.py -n twitch
+	*Busca dominios
+
+Maltego:
+
+	Instalamos las transformadas de maltego (las gratis)
+
+	Seleccionamos entidad y la arrastramos al panel.
+
+	Nos dará información WHOIS y fingerprints del dominio o persona que buscamos.
+
+Otras Herramientas de OSINT:
+
+	IntelTechhiques
+	NetBOotCamp
+	OSINTFramework
+	Ciberpatrulla
+	i-intelligence
+
+Privacidad y anonimato
+
+	Se intenta de dejar el menor numero de huellas posibles.
+
+	FakeNameGenerator
+
+	ProtonMail
+
+	Servicios de telefono digital.
+
+	Recomendación: usar Tails como SO Live en un pendrive con un navegador TOR
+
+	Uso de Proxy y ProtonVPN
+
+	Volatilidad de la información: obtener evidencias de cada información -> eGarante
+
+	Gestor de COntraseñas KeePass.
+
+
+
