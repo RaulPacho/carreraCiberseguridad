@@ -172,5 +172,20 @@ Introducción a la ciberseguridad donde se explican los objetivos del curso y la
     Backdoorización de archivos .EXE 
     
     Armitage
-    
+   
+*OSINT*
 
+    Inteligencia y ciberinteligencia, Tipos, Ciclo de inteligencia, credibilidad y fiabilidad, factor humano.
+    
+    Hacking con Buscadores (Sí, otra vez)
+    
+    Metadatos y herramientas (Sí, otra vez)
+    
+    Herramientas OSINT: 
+        OSRFramework
+        Maltego
+        WHOIS e IPs
+        
+    Monitorizacióin OSINT
+    
+    Anónimato y alertas
